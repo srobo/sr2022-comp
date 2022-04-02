@@ -1,1 +1,505 @@
-matches: {}
+matches:
+  0:
+    main:
+    - QMC
+    - CCR
+    - GDC
+    - NMS
+  1:
+    main:
+    - SDC
+    - HEA
+    - HWM
+    - CAG
+  2:
+    main:
+    - SWI
+    - BRK
+    - HAB
+    - ELC
+  3:
+    main:
+    - SEN
+    - HRS
+    - TLC
+    - RGS
+  4:
+    main:
+    - WGS
+    - PHC
+    - CLY
+    - PSC
+  5:
+    main:
+    - BPV
+    - ABS
+    - HAM
+    - CRB
+  6:
+    main:
+    - KEG
+    - SOG
+    - HSO
+    - SWA
+  7:
+    main:
+    - CRB
+    - HWM
+    - SEN
+    - BRK
+  8:
+    main:
+    - SWI
+    - CAG
+    - PHC
+    - HRS
+  9:
+    main:
+    - TLC
+    - WGS
+    - BPV
+    - PSC
+  10:
+    main:
+    - SOG
+    - SDC
+    - ELC
+    - CCR
+  11:
+    main:
+    - NMS
+    - HAB
+    - GDC
+    - KEG
+  12:
+    main:
+    - ABS
+    - HSO
+    - HAM
+    - RGS
+  13:
+    main:
+    - CLY
+    - SWA
+    - HEA
+    - QMC
+  14:
+    main:
+    - SOG
+    - BPV
+    - ABS
+    - HRS
+  15:
+    main:
+    - KEG
+    - HWM
+    - HSO
+    - HEA
+  16:
+    main:
+    - PSC
+    - CCR
+    - BRK
+    - WGS
+  17:
+    main:
+    - SWA
+    - GDC
+    - NMS
+    - CLY
+  18:
+    main:
+    - CAG
+    - RGS
+    - QMC
+    - HAB
+  19:
+    main:
+    - SWI
+    - CRB
+    - PHC
+    - HAM
+  20:
+    main:
+    - SDC
+    - ELC
+    - SEN
+    - TLC
+  21:
+    main:
+    - HWM
+    - QMC
+    - SWA
+    - ABS
+  22:
+    main:
+    - CRB
+    - CAG
+    - ELC
+    - HAB
+  23:
+    main:
+    - GDC
+    - SDC
+    - BRK
+    - PSC
+  24:
+    main:
+    - RGS
+    - CLY
+    - SOG
+    - TLC
+  25:
+    main:
+    - WGS
+    - HRS
+    - SWI
+    - BPV
+  26:
+    main:
+    - NMS
+    - CCR
+    - KEG
+    - PHC
+  27:
+    main:
+    - HAM
+    - HEA
+    - SEN
+    - HSO
+  28:
+    main:
+    - SWA
+    - CLY
+    - TLC
+    - PSC
+  29:
+    main:
+    - PHC
+    - GDC
+    - SEN
+    - ABS
+  30:
+    main:
+    - ELC
+    - KEG
+    - QMC
+    - CAG
+  31:
+    main:
+    - SOG
+    - SWI
+    - HEA
+    - SDC
+  32:
+    main:
+    - WGS
+    - HAM
+    - CRB
+    - BRK
+  33:
+    main:
+    - HRS
+    - RGS
+    - BPV
+    - HWM
+  34:
+    main:
+    - HSO
+    - HAB
+    - NMS
+    - CCR
+  35:
+    main:
+    - HRS
+    - RGS
+    - GDC
+    - SWI
+  36:
+    main:
+    - SEN
+    - HAM
+    - HWM
+    - SWA
+  37:
+    main:
+    - PHC
+    - KEG
+    - ELC
+    - BPV
+  38:
+    main:
+    - ABS
+    - HSO
+    - CCR
+    - SOG
+  39:
+    main:
+    - QMC
+    - HEA
+    - CRB
+    - CAG
+  40:
+    main:
+    - PSC
+    - HAB
+    - CLY
+    - SDC
+  41:
+    main:
+    - TLC
+    - NMS
+    - WGS
+    - BRK
+  42:
+    main:
+    - HEA
+    - PSC
+    - SOG
+    - QMC
+  43:
+    main:
+    - NMS
+    - ABS
+    - KEG
+    - SWA
+  44:
+    main:
+    - HAB
+    - SEN
+    - SDC
+    - HSO
+  45:
+    main:
+    - GDC
+    - HAM
+    - CAG
+    - CRB
+  46:
+    main:
+    - BRK
+    - CLY
+    - HRS
+    - BPV
+  47:
+    main:
+    - HWM
+    - SWI
+    - PHC
+    - ELC
+  48:
+    main:
+    - RGS
+    - CCR
+    - TLC
+    - WGS
+  49:
+    main:
+    - CAG
+    - BPV
+    - ABS
+    - CLY
+  50:
+    main:
+    - HAB
+    - HWM
+    - ELC
+    - QMC
+  51:
+    main:
+    - SDC
+    - HSO
+    - PSC
+    - HAM
+  52:
+    main:
+    - SEN
+    - SOG
+    - SWI
+    - SWA
+  53:
+    main:
+    - PHC
+    - WGS
+    - RGS
+    - BRK
+  54:
+    main:
+    - HEA
+    - NMS
+    - HRS
+    - CCR
+  55:
+    main:
+    - TLC
+    - GDC
+    - CRB
+    - KEG
+  56:
+    main:
+    - PSC
+    - SWI
+    - QMC
+    - PHC
+  57:
+    main:
+    - NMS
+    - SWA
+    - SOG
+    - SDC
+  58:
+    main:
+    - CCR
+    - ELC
+    - WGS
+    - HEA
+  59:
+    main:
+    - BPV
+    - CRB
+    - CLY
+    - HWM
+  60:
+    main:
+    - HSO
+    - BRK
+    - TLC
+    - GDC
+  61:
+    main:
+    - ABS
+    - CAG
+    - RGS
+    - HRS
+  62:
+    main:
+    - HAM
+    - KEG
+    - HAB
+    - SEN
+  63:
+    main:
+    - GDC
+    - SOG
+    - WGS
+    - HWM
+  64:
+    main:
+    - SWA
+    - TLC
+    - CAG
+    - NMS
+  65:
+    main:
+    - KEG
+    - HAM
+    - RGS
+    - CLY
+  66:
+    main:
+    - BRK
+    - CRB
+    - PSC
+    - HAB
+  67:
+    main:
+    - HEA
+    - SEN
+    - SWI
+    - PHC
+  68:
+    main:
+    - QMC
+    - HRS
+    - CCR
+    - ELC
+  69:
+    main:
+    - HSO
+    - ABS
+    - SDC
+    - BPV
+  70:
+    main:
+    - CCR
+    - RGS
+    - SWA
+    - GDC
+  71:
+    main:
+    - WGS
+    - HAB
+    - KEG
+    - PHC
+  72:
+    main:
+    - ELC
+    - QMC
+    - ABS
+    - SOG
+  73:
+    main:
+    - CAG
+    - NMS
+    - BPV
+    - SEN
+  74:
+    main:
+    - HAM
+    - TLC
+    - SDC
+    - HRS
+  75:
+    main:
+    - HWM
+    - CLY
+    - PSC
+    - SWI
+  76:
+    main:
+    - HSO
+    - HEA
+    - BRK
+    - CRB
+  77:
+    main:
+    - CLY
+    - BPV
+    - KEG
+    - SEN
+  78:
+    main:
+    - HAB
+    - SDC
+    - HAM
+    - QMC
+  79:
+    main:
+    - CCR
+    - PSC
+    - HWM
+    - GDC
+  80:
+    main:
+    - BRK
+    - SWA
+    - HRS
+    - HSO
+  81:
+    main:
+    - SWI
+    - WGS
+    - HEA
+    - RGS
+  82:
+    main:
+    - SOG
+    - CAG
+    - ABS
+    - TLC
+  83:
+    main:
+    - ELC
+    - PHC
+    - CRB
+    - NMS
