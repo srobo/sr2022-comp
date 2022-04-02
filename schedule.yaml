@@ -29,40 +29,36 @@ delays: []
 #
 match_periods:
   league:
-  - start_time: 2022-04-23 11:00:00+01:00
-    # Technically we stop at noon, but to force the next match
+  - start_time: 2022-04-23 11:30:00+01:00
+    # Technically we stop at 12:30, but to force the next match
     # into the next period we claim to finish a bit earlier.
-    end_time: 2022-04-23 11:55:00+01:00
-    max_end_time: 2022-04-23 12:10:00+01:00
+    end_time: 2022-04-23 12:26:00+01:00
+    max_end_time: 2022-04-23 12:30:00+01:00
     description: Saturday league, morning
 
 #
-  - start_time: 2022-04-23 13:00:00+01:00
-    end_time: 2022-04-23 17:10:00+01:00
+  - start_time: 2022-04-23 13:30:00+01:00
+    end_time: 2022-04-23 17:00:00+01:00
     max_end_time: 2022-04-23 17:15:00+01:00
     description: Saturday league, afternoon
 
 #
-  - start_time: 2022-04-24 10:30:00+01:00
-    end_time: 2022-04-24 11:55:00+01:00
-    max_end_time: 2022-04-24 12:10:00+01:00
+  - start_time: 2022-04-24 11:00:00+01:00
+    end_time: 2022-04-24 12:30:00+01:00
+    max_end_time: 2022-04-24 12:40:00+01:00
     description: Sunday league, morning
 
 #
-  - start_time: 2022-04-24 13:00:00+01:00
-    end_time: 2022-04-24 14:15:00+01:00
-    description: Sunday league, afternoon
-#
-# There is a group photograph scheduled for 14:30
+# There is a group photograph scheduled for 13:30
 #
   knockout:
-  - start_time: 2022-04-24 15:00:00+01:00
-    end_time: 2022-04-24 16:55:00+01:00
+  - start_time: 2022-04-24 14:00:00+01:00
+    end_time: 2022-04-24 16:10:00+01:00
     description: Knockouts
 
 # Scheduled time for the finals tie-breaker, if any
 # This is an absolute value and ignores the delay values
-tiebreaker: 2022-04-24 17:05:00+01:00
+tiebreaker: 2022-04-24 16:15:00+01:00
 
 league:
   # Extra spacing before an arbitrary set of matches
@@ -73,12 +69,6 @@ league:
   # Matches which fall at the start of their period are ignored
   - match_numbers: 0-6
     duration: 240
-  # Spacing between rounds (Saturday)
-  - match_numbers: 14,21,28,35,42,49
-    duration: 300
-  # Spacing between rounds (Sunday)
-  - match_numbers: 56,63,70
-    duration: 600
 #
 knockout:
   round_spacing: 300 # Delay between knockout rounds
