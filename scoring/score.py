@@ -21,7 +21,7 @@ class Scorer(object):
         for tla, info in self._teams_data.items():
             zone = info['zone']
             cans = self._arena_data[zone]['tokens']
-            points = sum(CAN_STATE_SCORES[c] for c in cans if c != " ")
+            points = sum(CAN_STATE_SCORES[sanitised_can] for can in cans if (sanitised_can := can.strip()))
 
             if info.get('left_scoring_zone', False):
                 points += 1
