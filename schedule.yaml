@@ -69,6 +69,9 @@ league:
   # Matches which fall at the start of their period are ignored
   - match_numbers: 0-6
     duration: 240
+  # Space for a shift change on Saturday afternoon
+  - match_numbers: "31"
+    duration: 240
 #
 knockout:
   round_spacing: 300 # Delay between knockout rounds
