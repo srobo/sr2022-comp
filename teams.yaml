@@ -1,79 +1,79 @@
 teams:
     ABS:
         name: Abingdon School
-        rookie: Yes
+        rookie: true
     BPV:
         name: Barton Peveril College
-        rookie: No
+        rookie: false
     BRK:
         name: Brockenhurst College
-        rookie: No
+        rookie: false
     CAG:
         name: Calday Grange
-        rookie: Yes
+        rookie: true
     CCR:
         name: Cirencester College
-        rookie: No
+        rookie: false
     CLY:
         name: The College of Richard Collyer
-        rookie: No
+        rookie: false
     CRB:
         name: Cranbrook School
-        rookie: No
+        rookie: false
     ELC:
         name: Eltham College
-        rookie: No
+        rookie: false
     GDC:
         name: Godalming College
-        rookie: No
+        rookie: false
     HAB:
         name: Haberdashers' School
-        rookie: No
+        rookie: false
     HAM:
         name: Hampton College
-        rookie: No
+        rookie: false
     HEA:
         name: Hertswood Academy
-        rookie: Yes
+        rookie: true
     HRS:
         name: Hills Road Sixth Form College
-        rookie: No
+        rookie: false
     HWM:
         name: Harris Westminster Sixth Form
-        rookie: Yes
+        rookie: true
     KEG:
         name: King Edward VI Grammar School
-        rookie: No
+        rookie: false
     NMS:
         name: The National Mathematics and Science College
-        rookie: Yes
+        rookie: true
     PHC:
         name: St Philomena's Catholic High School for Girls
-        rookie: Yes
+        rookie: true
     PSC:
         name: Peter Symonds College
-        rookie: No
+        rookie: false
     QMC:
         name: Queen Mary's College
-        rookie: No
+        rookie: false
     RGS:
         name: Royal Grammar School Guildford
-        rookie: No
+        rookie: false
     SDC:
         name: St Dunstan's College
-        rookie: No
+        rookie: false
     SEN:
         name: Southend High School for Boys
-        rookie: No
+        rookie: false
     SOG:
         name: Saint Olaves Grammar School
-        rookie: No
+        rookie: false
     SWA:
         name: Swakeleys School for Girls
-        rookie: Yes
+        rookie: true
     SWI:
         name: South Wilts Grammar School
-        rookie: No
+        rookie: false
     WGS:
         name: Wisbech Grammar School
-        rookie: No
+        rookie: false
