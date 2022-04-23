@@ -7,7 +7,7 @@ arena_zones:
   2:
     tokens: ''
   3:
-    tokens: ''
+    tokens: T
   other:
     tokens: ''
 match_number: 21
