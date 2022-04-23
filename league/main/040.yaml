@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: T
+  1:
+    tokens: BBBB
+  2:
+    tokens: ''
+  3:
+    tokens: S
+  other:
+    tokens: ''
+match_number: 40
+teams:
+  CCR:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  GDC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  PSC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  SOG:
+    disqualified: false
+    left_scoring_zone: false
+    present: false
+    zone: 2
