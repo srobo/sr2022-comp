@@ -25,7 +25,9 @@ staging:
 #
 timezone: Europe/London
 #
-delays: []
+delays:
+- delay: 900
+  time: 2022-04-23 15:50:00+01:00
 #
 match_periods:
   league:
