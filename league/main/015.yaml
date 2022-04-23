@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: TS
+  1:
+    tokens: T
+  2:
+    tokens: ''
+  3:
+    tokens: ''
+  other:
+    tokens: ''
+match_number: 15
+teams:
+  CAG:
+    disqualified: false
+    left_scoring_zone: false
+    present: true
+    zone: 2
+  HAB:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  NMS:
+    disqualified: false
+    left_scoring_zone: false
+    present: false
+    zone: 3
+  WGS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
