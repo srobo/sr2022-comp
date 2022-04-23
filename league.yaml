@@ -368,8 +368,8 @@ matches:
   61:
     main:
     - KEG
-    - BPV
     - BRK
+    - BPV
     - CCR
   62:
     main:
@@ -380,9 +380,9 @@ matches:
   63:
     main:
     - HAM
-    - CAG
-    - SDC
     - QMC
+    - SDC
+    - CAG
   64:
     main:
     - NMS
@@ -410,8 +410,8 @@ matches:
   68:
     main:
     - GDC
-    - WGS
     - SDC
+    - WGS
     - QMC
   69:
     main:
