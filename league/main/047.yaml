@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: BBBS
+  1:
+    tokens: T
+  2:
+    tokens: B
+  3:
+    tokens: T
+  other:
+    tokens: ''
+match_number: 47
+teams:
+  ABS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
+  CCR:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  HEA:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  KEG:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
