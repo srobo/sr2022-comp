@@ -451,19 +451,97 @@ matches:
     - RGS
   75:
     main:
-    - CRB
-    - HAB
-    - QMC
-    - BRK
-  76:
-    main:
     - CLY
     - NMS
     - WGS
     - SWA
+  76:
+    main:
+    - CRB
+    - QMC
+    - HAB
+    - BRK
   77:
     main:
     - CAG
     - HAM
     - ELC
     - CCR
+  78:
+    main:
+    - SOG
+    - HWM
+    - HEA
+    - SDC
+  79:
+    main:
+    - WGS
+    - PSC
+    - KEG
+    - SWI
+  80:
+    main:
+    - BPV
+    - HRS
+    - RGS
+    - PHC
+  81:
+    main:
+    - BRK
+    - CLY
+    - QMC
+    - ABS
+  82:
+    main:
+    - GDC
+    - HAB
+    - SEN
+    - CRB
+  83:
+    main:
+    - NMS
+    - SWA
+    - CCR
+    - HAM
+  84:
+    main:
+    - CAG
+    - PSC
+    - ELC
+    - WGS
+  85:
+    main:
+    - KEG
+    - ABS
+    - SDC
+    - HWM
+  86:
+    main:
+    - SOG
+    - HEA
+    - BPV
+    - RGS
+  87:
+    main:
+    - HAB
+    - PHC
+    - HRS
+    - CRB
+  88:
+    main:
+    - SEN
+    - GDC
+    - CLY
+    - SWI
+  89:
+    main:
+    - BRK
+    - HAM
+    - QMC
+    - CCR
+  90:
+    main:
+    - SWA
+    - ELC
+    - NMS
+    - CAG
