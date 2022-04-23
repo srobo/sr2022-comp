@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: ''
+  1:
+    tokens: BTSS
+  2:
+    tokens: ''
+  3:
+    tokens: ''
+  other:
+    tokens: ''
+match_number: 19
+teams:
+  CAG:
+    disqualified: false
+    left_scoring_zone: false
+    present: false
+    zone: 2
+  CRB:
+    disqualified: false
+    left_scoring_zone: false
+    present: true
+    zone: 0
+  GDC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  RGS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
