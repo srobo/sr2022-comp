@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: TT
+  1:
+    tokens: TT
+  2:
+    tokens: ''
+  3:
+    tokens: ''
+  other:
+    tokens: ''
+match_number: 9
+teams:
+  CLY:
+    disqualified: true
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  HAB:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  SDC:
+    disqualified: false
+    left_scoring_zone: false
+    present: false
+    zone: 2
+  WGS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
