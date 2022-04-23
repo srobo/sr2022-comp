@@ -72,7 +72,7 @@ league:
   - match_numbers: 0-6
     duration: 240
   # Space for a shift change on Saturday afternoon
-  - match_numbers: "31"
+  - match_numbers: '31'
     duration: 240
 #
 knockout:
