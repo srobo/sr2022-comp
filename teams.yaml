@@ -6,10 +6,10 @@ teams:
         name: Barton Peveril College
         rookie: false
     BRK:
-        name: Brockenhurst College
+        name: Glue Goblin
         rookie: false
     CAG:
-        name: Calday Grange
+        name: Calday A
         rookie: true
     CCR:
         name: Cirencester College
@@ -51,13 +51,13 @@ teams:
         name: St Philomena's Catholic High School for Girls
         rookie: true
     PSC:
-        name: Peter Symonds College
+        name: Freddy Fazbot's Pizza Plex
         rookie: false
     QMC:
         name: Queen Mary's College
         rookie: false
     RGS:
-        name: Royal Grammar School Guildford
+        name: John
         rookie: false
     SDC:
         name: St Dunstan's College
@@ -75,5 +75,5 @@ teams:
         name: South Wilts Grammar School
         rookie: false
     WGS:
-        name: Wisbech Grammar School
+        name: Walter!!
         rookie: false
