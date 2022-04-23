@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: B
+  1:
+    tokens: BBB
+  2:
+    tokens: ''
+  3:
+    tokens: T
+  other:
+    tokens: ''
+match_number: 46
+teams:
+  HAM:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  PSC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
+  QMC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  WGS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
