@@ -86,7 +86,7 @@ matches:
   14:
     main:
     - CLY
-    - SDC
+    - RGS
     - QMC
     - HEA
   15:
@@ -117,13 +117,13 @@ matches:
     main:
     - CRB
     - GDC
-    - CLY
+    - CAG
     - RGS
   20:
     main:
     - SDC
-    - HWM
-    - CAG
+    - PSC
+    - CLY
     - PHC
   21:
     main:
@@ -133,28 +133,28 @@ matches:
     - HEA
   22:
     main:
-    - HRS
-    - QMC
-    - WGS
-    - HAM
-  23:
-    main:
     - KEG
-    - PSC
+    - HWM
     - SWA
     - HAB
-  24:
+  23:
     main:
-    - ELC
-    - ABS
-    - RGS
-    - SOG
-  25:
+    - HRS
+    - BPV
+    - WGS
+    - HAM
+  24:
     main:
     - SEN
     - PHC
-    - BPV
+    - QMC
     - CRB
+  25:
+    main:
+    - ELC
+    - ABS
+    - SDC
+    - SOG
   26:
     main:
     - CAG
@@ -163,16 +163,16 @@ matches:
     - HWM
   27:
     main:
-    - CCR
-    - WGS
-    - QMC
-    - HAM
-  28:
-    main:
     - SWA
     - PSC
     - HRS
     - HEA
+  28:
+    main:
+    - CCR
+    - WGS
+    - SWI
+    - HAM
   29:
     main:
     - SOG
@@ -184,18 +184,18 @@ matches:
     - NMS
     - BPV
     - CRB
-    - SWI
+    - QMC
   31:
     main:
     - SEN
-    - BRK
+    - HAB
     - ABS
     - HWM
   32:
     main:
     - WGS
     - PHC
-    - HAB
+    - BRK
     - CAG
   33:
     main:
@@ -332,13 +332,13 @@ matches:
   55:
     main:
     - SWA
-    - KEG
+    - RGS
     - CCR
     - HAB
   56:
     main:
     - SDC
-    - RGS
+    - KEG
     - BRK
     - QMC
   57:
@@ -369,19 +369,19 @@ matches:
     main:
     - KEG
     - BPV
-    - WGS
-    - SDC
+    - BRK
+    - CCR
   62:
     main:
     - HEA
-    - BRK
+    - WGS
     - HAB
     - SEN
   63:
     main:
     - HAM
     - CAG
-    - CCR
+    - SDC
     - QMC
   64:
     main:
