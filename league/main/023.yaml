@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: B
+  1:
+    tokens: S
+  2:
+    tokens: T
+  3:
+    tokens: ''
+  other:
+    tokens: ''
+match_number: 23
+teams:
+  BPV:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
+  HAM:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  HRS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  WGS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
