@@ -87,13 +87,10 @@ knockout:
 static_knockout:
   teams_per_arena: 4
   matches:
-    # This is a knockouts for 17 entrants. There are two play-in matches between
-    # the bottom two teams in order to reduce them to one team followed by an
-    # ordinary single-elimination knockout of the 16 remaining teams. Pairings
-    # are arranged such that any increase in seeding gives an easier path to the
-    # final. Zones are arranged such that the top seed gets zone 0 in the final
-    # and that the expected winners (based on seeding performance) experiences
-    # alternating zones as they progress to the final.
+    # This is a knockout for 24 entrants. The top 8 teams get byes and progress
+    # directly to the quarter finals, while the remaining 16 teams play
+    # qualifier matches. Zones are not specifically randomised as the arena is
+    # rotationally symmetrical.
     0:
       0:
         arena: main
