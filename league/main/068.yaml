@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: TTTT
+  1:
+    tokens: ''
+  2:
+    tokens: S
+  3:
+    tokens: BBB
+  other:
+    tokens: ''
+match_number: 68
+teams:
+  GDC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  QMC:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  SDC:
+    disqualified: false
+    left_scoring_zone: false
+    present: false
+    zone: 1
+  WGS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
