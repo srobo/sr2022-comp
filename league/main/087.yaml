@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: ''
+  1:
+    tokens: ''
+  2:
+    tokens: BBBBB
+  3:
+    tokens: T
+  other:
+    tokens: ''
+match_number: 87
+teams:
+  CRB:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  HAB:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  HRS:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
+  PHC:
+    disqualified: false
+    left_scoring_zone: false
+    present: false
+    zone: 1
