@@ -116,25 +116,25 @@ static_knockout:
     1:
       0:
         arena: main
-        start_time: 2022-04-24 15:22:00 +01:00
+        start_time: 2022-04-24 15:27:00 +01:00
         display_name: Quarter 1
         # seed 1, seed 8, 1st of heat 1, 2nd of heat 1
         teams: [S1, S8, '000', '001']
       1:
         arena: main
-        start_time: 2022-04-24 15:26:00 +01:00
+        start_time: 2022-04-24 15:31:00 +01:00
         display_name: Quarter 2
         # seed 2, seed 7, 1st of heat 2, 2nd of heat 2
         teams: [S2, S7, '010', '011']
       2:
         arena: main
-        start_time: 2022-04-24 15:30:00 +01:00
+        start_time: 2022-04-24 15:35:00 +01:00
         display_name: Quarter 3
         # seed 3, seed 6, 1st of heat 3, 2nd of heat 3
         teams: [S3, S6, '020', '021']
       3:
         arena: main
-        start_time: 2022-04-24 15:34:00 +01:00
+        start_time: 2022-04-24 15:39:00 +01:00
         display_name: Quarter 4
         # seed 4, seed 5, 1st of heat 4, 2nd of heat 4
         teams: [S4, S5, '030', '031']
@@ -142,13 +142,13 @@ static_knockout:
     2:
       0:
         arena: main
-        start_time: 2022-04-24 15:43:00 +01:00
+        start_time: 2022-04-24 15:48:00 +01:00
         display_name: Semi 1
         # 1st of Q1, 1st of Q4, 2nd of Q4, 2nd of Q1
         teams: ['100', '130', '131', '101']
       1:
         arena: main
-        start_time: 2022-04-24 15:47:00 +01:00
+        start_time: 2022-04-24 15:52:00 +01:00
         display_name: Semi 2
         # 1nd of Q2, 1st of Q3, 2nd of Q3, 2nd of Q2
         teams: ['110', '120', '121', '111']
@@ -156,7 +156,7 @@ static_knockout:
     3:
       0:
         arena: main
-        start_time: 2022-04-24 16:01:00 +01:00
+        start_time: 2022-04-24 16:06:00 +01:00
         display_name: Final
         # 1st of S1, 1st of S2, 2nd of S1, 2nd of S2
         teams: ['200', '210', '201', '211']
