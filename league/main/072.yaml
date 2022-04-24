@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: T
+  1:
+    tokens: T
+  2:
+    tokens: ''
+  3:
+    tokens: ''
+  other:
+    tokens: ''
+match_number: 72
+teams:
+  CAG:
+    disqualified: false
+    left_scoring_zone: false
+    present: true
+    zone: 1
+  HEA:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  SOG:
+    disqualified: false
+    left_scoring_zone: false
+    present: true
+    zone: 3
+  SWI:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 2
