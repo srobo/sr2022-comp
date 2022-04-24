@@ -82,12 +82,84 @@ league:
     duration: 240
 #
 knockout:
-  round_spacing: 300 # Delay between knockout rounds
-  final_delay: 300   # Extra delay before the finals
+  static: true
 #
-# Everyone goes through to the knockouts (arity = ?)
-#
-  single_arena:
-    rounds: 5        # We only have one arena, so this is all the rounds
-    arenas:
-    - main
+static_knockout:
+  teams_per_arena: 4
+  matches:
+    # This is a knockouts for 17 entrants. There are two play-in matches between
+    # the bottom two teams in order to reduce them to one team followed by an
+    # ordinary single-elimination knockout of the 16 remaining teams. Pairings
+    # are arranged such that any increase in seeding gives an easier path to the
+    # final. Zones are arranged such that the top seed gets zone 0 in the final
+    # and that the expected winners (based on seeding performance) experiences
+    # alternating zones as they progress to the final.
+    0:
+      0:
+        arena: main
+        start_time: 2022-04-24 15:01:00 +01:00
+        display_name: Qualifier 1
+        teams: [S9, S16, S17, S24]
+      1:
+        arena: main
+        start_time: 2022-04-24 15:05:00 +01:00
+        display_name: Qualifier 2
+        teams: [S10, S15, S18, S23]
+      2:
+        arena: main
+        start_time: 2022-04-24 15:09:00 +01:00
+        display_name: Qualifier 3
+        teams: [S11, S14, S19, S22]
+      3:
+        arena: main
+        start_time: 2022-04-24 15:13:00 +01:00
+        display_name: Qualifier 4
+        teams: [S12, S13, S20, S21]
+
+    1:
+      0:
+        arena: main
+        start_time: 2022-04-24 15:22:00 +01:00
+        display_name: Quarter 1
+        # seed 1, seed 8, 1st of heat 1, 2nd of heat 1
+        teams: [S1, S8, '000', '001']
+      1:
+        arena: main
+        start_time: 2022-04-24 15:26:00 +01:00
+        display_name: Quarter 2
+        # seed 2, seed 7, 1st of heat 2, 2nd of heat 2
+        teams: [S2, S7, '010', '011']
+      2:
+        arena: main
+        start_time: 2022-04-24 15:30:00 +01:00
+        display_name: Quarter 3
+        # seed 3, seed 6, 1st of heat 3, 2nd of heat 3
+        teams: [S3, S6, '020', '021']
+      3:
+        arena: main
+        start_time: 2022-04-24 15:34:00 +01:00
+        display_name: Quarter 4
+        # seed 4, seed 5, 1st of heat 4, 2nd of heat 4
+        teams: [S4, S5, '030', '031']
+
+    2:
+      0:
+        arena: main
+        start_time: 2022-04-24 15:43:00 +01:00
+        display_name: Semi 1
+        # 1st of Q1, 1st of Q4, 2nd of Q4, 2nd of Q1
+        teams: ['100', '130', '131', '101']
+      1:
+        arena: main
+        start_time: 2022-04-24 15:47:00 +01:00
+        display_name: Semi 2
+        # 1nd of Q2, 1st of Q3, 2nd of Q3, 2nd of Q2
+        teams: ['110', '120', '121', '111']
+
+    3:
+      0:
+        arena: main
+        start_time: 2022-04-24 16:01:00 +01:00
+        display_name: Final
+        # 1st of S1, 1st of S2, 2nd of S1, 2nd of S2
+        teams: ['200', '210', '201', '211']
