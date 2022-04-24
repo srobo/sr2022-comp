@@ -1,0 +1,34 @@
+arena_id: main
+arena_zones:
+  0:
+    tokens: T
+  1:
+    tokens: BBB
+  2:
+    tokens: ''
+  3:
+    tokens: BBBB
+  other:
+    tokens: ''
+match_number: 77
+teams:
+  CAG:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 0
+  CCR:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 3
+  ELC:
+    disqualified: false
+    left_scoring_zone: false
+    present: true
+    zone: 2
+  HAM:
+    disqualified: false
+    left_scoring_zone: true
+    present: true
+    zone: 1
