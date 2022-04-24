@@ -142,13 +142,13 @@ static_knockout:
     2:
       0:
         arena: main
-        start_time: 2022-04-24 15:48:00 +01:00
+        start_time: 2022-04-24 15:51:00 +01:00
         display_name: Semi 1
         # 1st of Q1, 1st of Q4, 2nd of Q4, 2nd of Q1
         teams: ['100', '130', '131', '101']
       1:
         arena: main
-        start_time: 2022-04-24 15:52:00 +01:00
+        start_time: 2022-04-24 15:55:00 +01:00
         display_name: Semi 2
         # 1nd of Q2, 1st of Q3, 2nd of Q3, 2nd of Q2
         teams: ['110', '120', '121', '111']
