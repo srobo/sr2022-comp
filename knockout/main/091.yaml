@@ -3,7 +3,7 @@ arena_zones:
   0:
     tokens: ''
   1:
-    tokens: ''
+    tokens: T
   2:
     tokens: T
   3:
